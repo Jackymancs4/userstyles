@@ -1,0 +1,68 @@
+/* ==UserStyle==
+@name           Wikia - Clean
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@description    Wikia.com cleaned up
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+==/UserStyle== */
+
+@-moz-document domain("wikia.com") {
+
+    #WikiaMainContent {
+        width: 100%
+    }
+
+    #WikiaRailWrapper,
+    #WikiaBarWrapper,
+    #WikiaFooter,
+    .WikiaBarCollapseWrapper,
+    .wds-global-footer,
+    .wds-global-navigation__link,
+    .wds-global-navigation__links,
+    .wds-global-navigation__wikis-menu,
+    .wds-global-navigation__link-group,
+    .wds-global-navigation__start-a-wiki,
+    .wds-global-navigation__account-menu,
+    .wds-global-navigation__user-menu,
+    .wds-global-navigation__notifications-menu,
+    .wds-global-navigation__notifications-dropdown,
+    .featured-video__wrapper,
+    #RelatedForumDiscussion,
+    #WikiaArticleFooter,
+    a[href="#WikiaArticleComments"],
+    .wds-global-navigation__logo {
+        display: none
+    }
+
+    .wds-global-navigation-wrapper,
+    #globalNavigation,
+    .wds-global-navigation__content-bar,
+    .wds-global-navigation__content-bar-left,
+    .wds-global-navigation__content-bar-right,
+    .wds-global-navigation__search,
+    .wds-global-navigation__dropdown-controls,
+    .wds-global-navigation__modal-controls,
+    .wds-global-navigation__link,
+    .wds-global-navigation__links,
+    .wds-global-navigation__wikis-menu,
+    .wds-global-navigation__link-group,
+    .wds-global-navigation__start-a-wiki,
+    .wds-global-navigation__account-menu,
+    .wds-global-navigation__user-menu,
+    .wds-global-navigation__notifications-menu,
+    .wds-global-navigation__logo {
+        height: 50px;
+    }
+
+    #globalNavigation {
+        position: relative;
+    }
+
+    #WikiaTopAds,
+    .wikia-ad,
+    .main-page-tag-rcs iframe,
+    .main-page-tag-rcs div.floatright,
+    #discord-widget {
+        display: none;
+    }
+}

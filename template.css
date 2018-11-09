@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           template
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://github.com/Jackymancs4/userstyles/@name.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("example.com") {
+    /* Inserisci codice qui... */
+}
