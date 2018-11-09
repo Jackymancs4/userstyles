@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Jack's Github
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    .octotree_bottom {
+        font-size: 0px !important
+    }
+
+    .octotree_bottom * {
+        display: none !important;
+    }
+}
