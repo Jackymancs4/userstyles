@@ -1,13 +1,21 @@
 /* ==UserStyle==
 @name           Jack's Internet
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    Internet, the way I like it
+@namespace      jackymancs4/userstyles
+@version        1.0.1
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/style.user.css
+@license        MIT
+@preprocessor   default
 ==/UserStyle== */
 
+
 @-moz-document regexp(".*") {
-    html, body {
+
+    html,
+    body {
         overscroll-behavior: none;
     }
 }
