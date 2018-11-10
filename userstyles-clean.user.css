@@ -2,7 +2,7 @@
 @name           Userstyles.org - Clean
 @description    description
 @namespace      jackymancs4/userstyles
-@version        1.0.1
+@version        1.0.2
 @author         Giacomo Rossetto <jackyman_cs4@live.it>
 @homepageURL    https://github.com/Jackymancs4/userstyles
 @supportURL     https://github.com/Jackymancs4/userstyles/issues
@@ -13,8 +13,10 @@
 
 @-moz-document domain("userstyles.org") {
 
+    /* Remove android app spam */
     .overlay_background,
     .android_button_banner,
+    .android_button_button,
     .bottomLinks,
     #top_android_button,
     .walking {
