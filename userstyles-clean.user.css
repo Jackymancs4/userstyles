@@ -1,11 +1,18 @@
 /* ==UserStyle==
 @name           Userstyles.org - Clean
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.1
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/userstyles-clean.user.css
+@license        MIT
+@preprocessor   default
 ==/UserStyle== */
+
 @-moz-document domain("userstyles.org") {
+
     .overlay_background,
     .android_button_banner,
     .bottomLinks,
