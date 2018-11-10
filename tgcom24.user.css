@@ -2,22 +2,22 @@
 @name           Jack's TGcom24
 @description    description
 @namespace      jackymancs4/userstyles
-@version        1.0.0
+@version        1.0.1
 @author         Giacomo Rossetto <jackyman_cs4@live.it>
 @homepageURL    https://github.com/Jackymancs4/userstyles
 @supportURL     https://github.com/Jackymancs4/userstyles/issues
-@updateURL      https://github.com/Jackymancs4/userstyles/
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/tgcom24.user.css
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
 @-moz-document domain("tgcom24.mediaset.it") {
+
     li article[data-sezione="people"],
     li article[data-sezione="spettacolo"],
     li article[data-sezione="televisione"],
     li article[data-sezione="sport"],
-    li article[data-sezione="lifestyle"]
-    {
+    li article[data-sezione="lifestyle"] {
         display: none !important;
     }
 }
