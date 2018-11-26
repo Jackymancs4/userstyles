@@ -13,11 +13,12 @@
 
 @-moz-document domain("tgcom24.mediaset.it") {
 
-    li article[data-sezione="people"],
-    li article[data-sezione="spettacolo"],
-    li article[data-sezione="televisione"],
-    li article[data-sezione="sport"],
-    li article[data-sezione="lifestyle"] {
-        display: none !important;
-    }
+  li article[data-sezione="people"],
+  li article[data-sezione="spettacolo"],
+  li article[data-sezione="televisione"],
+  li article[data-sezione="sport"],
+  li article[data-sezione="lifestyle"],
+  li article[data-sezione="donne"]{
+      display: none !important;
+  }
 }
