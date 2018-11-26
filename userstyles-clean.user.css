@@ -13,13 +13,13 @@
 
 @-moz-document domain("userstyles.org") {
 
-    /* Remove android app spam */
-    .overlay_background,
-    .android_button_banner,
-    .android_button_button,
-    .bottomLinks,
-    #top_android_button,
-    .walking {
-        display: none !important;
-    }
+  /* Remove android app spam */
+  .overlay_background,
+  .android_button_banner,
+  .android_button_button,
+  .bottomLinks,
+  #top_android_button,
+  .walking {
+      display: none !important;
+  }
 }
