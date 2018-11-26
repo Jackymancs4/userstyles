@@ -2,7 +2,7 @@
 @name           Wikipedia
 @description    description
 @namespace      jackymancs4/userstyles
-@version        1.1.0
+@version        1.1.1
 @author         Giacomo Rossetto <jackyman_cs4@live.it>
 @homepageURL    https://github.com/Jackymancs4/userstyles
 @supportURL     https://github.com/Jackymancs4/userstyles/issues
@@ -13,8 +13,12 @@
 
 @-moz-document domain("wikipedia.org") {
 
-    .interlanguage-link:not(.interwiki-it):not(.interwiki-en) {
-        display: none;
-    }
+  .interlanguage-link:not(.interwiki-it):not(.interwiki-en) {
+    display: none;
+  }
+
+  div {
+    overflow: hidden;
+  }
 
 }
