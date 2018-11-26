@@ -13,61 +13,61 @@
 
 @-moz-document domain("wikia.com") {
 
-    #WikiaMainContent {
-        width: 100%
-    }
+  #WikiaMainContent {
+    width: 100%
+  }
 
-    #WikiaRailWrapper,
-    #WikiaBarWrapper,
-    #WikiaFooter,
-    .WikiaBarCollapseWrapper,
-    .wds-global-footer,
-    .wds-global-navigation__link,
-    .wds-global-navigation__links,
-    .wds-global-navigation__wikis-menu,
-    .wds-global-navigation__link-group,
-    .wds-global-navigation__start-a-wiki,
-    .wds-global-navigation__account-menu,
-    .wds-global-navigation__user-menu,
-    .wds-global-navigation__notifications-menu,
-    .wds-global-navigation__notifications-dropdown,
-    .featured-video__wrapper,
-    #RelatedForumDiscussion,
-    #WikiaArticleFooter,
-    a[href="#WikiaArticleComments"],
-    .wds-global-navigation__logo {
-        display: none
-    }
+  #WikiaRailWrapper,
+  #WikiaBarWrapper,
+  #WikiaFooter,
+  .WikiaBarCollapseWrapper,
+  .wds-global-footer,
+  .wds-global-navigation__link,
+  .wds-global-navigation__links,
+  .wds-global-navigation__wikis-menu,
+  .wds-global-navigation__link-group,
+  .wds-global-navigation__start-a-wiki,
+  .wds-global-navigation__account-menu,
+  .wds-global-navigation__user-menu,
+  .wds-global-navigation__notifications-menu,
+  .wds-global-navigation__notifications-dropdown,
+  .featured-video__wrapper,
+  #RelatedForumDiscussion,
+  #WikiaArticleFooter,
+  a[href="#WikiaArticleComments"],
+  .wds-global-navigation__logo {
+    display: none
+  }
 
-    .wds-global-navigation-wrapper,
-    #globalNavigation,
-    .wds-global-navigation__content-bar,
-    .wds-global-navigation__content-bar-left,
-    .wds-global-navigation__content-bar-right,
-    .wds-global-navigation__search,
-    .wds-global-navigation__dropdown-controls,
-    .wds-global-navigation__modal-controls,
-    .wds-global-navigation__link,
-    .wds-global-navigation__links,
-    .wds-global-navigation__wikis-menu,
-    .wds-global-navigation__link-group,
-    .wds-global-navigation__start-a-wiki,
-    .wds-global-navigation__account-menu,
-    .wds-global-navigation__user-menu,
-    .wds-global-navigation__notifications-menu,
-    .wds-global-navigation__logo {
-        height: 50px;
-    }
+  .wds-global-navigation-wrapper,
+  #globalNavigation,
+  .wds-global-navigation__content-bar,
+  .wds-global-navigation__content-bar-left,
+  .wds-global-navigation__content-bar-right,
+  .wds-global-navigation__search,
+  .wds-global-navigation__dropdown-controls,
+  .wds-global-navigation__modal-controls,
+  .wds-global-navigation__link,
+  .wds-global-navigation__links,
+  .wds-global-navigation__wikis-menu,
+  .wds-global-navigation__link-group,
+  .wds-global-navigation__start-a-wiki,
+  .wds-global-navigation__account-menu,
+  .wds-global-navigation__user-menu,
+  .wds-global-navigation__notifications-menu,
+  .wds-global-navigation__logo {
+    height: 50px;
+  }
 
-    #globalNavigation {
-        position: relative;
-    }
+  #globalNavigation {
+    position: relative;
+  }
 
-    #WikiaTopAds,
-    .wikia-ad,
-    .main-page-tag-rcs iframe,
-    .main-page-tag-rcs div.floatright,
-    #discord-widget {
-        display: none;
-    }
+  #WikiaTopAds,
+  .wikia-ad,
+  .main-page-tag-rcs iframe,
+  .main-page-tag-rcs div.floatright,
+  #discord-widget {
+    display: none;
+  }
 }
