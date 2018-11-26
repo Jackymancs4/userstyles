@@ -10,12 +10,31 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
-
 @-moz-document regexp(".*") {
 
-    html,
-    body {
-        overscroll-behavior: none;
-    }
+  html,
+  body {
+      overscroll-behavior: none;
+  }
+}
+
+@-moz-document domain("krita.org") {
+
+  a#fundraiser-bar-container {
+      display: none;
+  }
+  .navbar {
+      border: 0px
+  }
+  .navbar-nav {
+      height: 15px
+  }
+}
+
+@-moz-document domain("gofuckingwork.com") {
+
+  #footer-chrome,
+  #megaphone {
+      display: none !important;
+  }
 }
