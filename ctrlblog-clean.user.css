@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           www.ctrl.blog - Clean
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("www.ctrl.blog") {
+
+    body {
+        margin-bottom: 50px
+    }
+
+    .boxa.box-hl.auc-bu.auc-hs.auc-hm.auc-hl,
+    #page-footer,
+    .boxa.auc-bu.auc-rm,
+    .boxa.auc-bu.auc-hs.auc-hm,
+    header.entry-header > aside {
+        display: none !important;
+    }
+}

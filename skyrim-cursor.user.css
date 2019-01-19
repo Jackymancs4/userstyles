@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Skyrim Cursor
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document regexp(".*") {
+  body {
+    cursor: url(http://cur.cursors-4u.net/games/gam-14/gam1393.png),
+      auto !important;
+  }
+
+  a:hover,
+  a h1:hover,
+  a h2:hover,
+  a h3:hover,
+  a p:hover,
+  a span:hover {
+    cursor: url(https://steamuserimages-a.akamaihd.net/ugc/543027273809304669/3A3460ABB49D7DFC4AF3935D58C9F50511933183/),
+      pointer !important;
+  }
+
+  p:hover,
+  span:hover,
+  h1:hover,
+  h2:hover,
+  h3:hover {
+    /*
+      display: inline-block;
+      */
+    cursor: text;
+  }
+}

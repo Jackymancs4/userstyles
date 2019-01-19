@@ -1,0 +1,97 @@
+/* ==UserStyle==
+@name           GNU - Dark
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("gnu.org") {
+
+  html {
+      background-color: black;
+  }
+
+  body {
+      border: .0em solid #302F2F;
+      box-shadow: 0 0 5px 5px #302F2F;
+
+  }
+
+  body,
+  #searcher, #fsf-links,
+  #content,
+  #toplinks a,
+  .content,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  *[bgcolor="white"],
+  #footer {
+      background-color: #302F2F !important;
+      color: #ccc !important;
+      font-family: Loma, Verdana, Geneva, Tahoma, sans-serif !important;
+  }
+
+
+  a:link:not(#navigation a) {
+      color: #66a3ff !important;
+  }
+  a:visited {
+      color: #4d4dff !important;
+  }
+
+  #gnu-banner a {
+      color: #ccc !important;
+  }
+
+  .node {
+      border-radius: .3em !important;
+  }
+  .node p {
+      color: #ccc !important;
+      padding: .5em !important;
+  }
+
+
+  #gnu-banner img {
+      filter: invert(100%)
+  }
+
+  /*
+ GNU dot org - dark
+ version 0.2
+ Copyright 2011 Kenneth W Foy, Jr
+ This work is licensed under a Creative Commons Attribution-
+ ShareAlike 3.0 Unported License.
+ http://creativecommons.org/licenses/by-sa/3.0/
+*/
+  dt {
+      color: gray !important;
+  }
+
+  /*
+  .header,
+  .header a:hover,
+  .node {
+      background-color: #000040 !important;
+  }
+  */
+  .example {
+      background-color: #302f2f !important;
+  }
+
+  .node a:hover {
+      background: none !important;
+  }
+
+  pre.smallexample {
+      background: #272727 !important;
+  }
+}

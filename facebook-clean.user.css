@@ -1,22 +1,18 @@
 /* ==UserStyle==
-@name           Jack's Github
+@name           Facebook - Clean
 @description    description
 @namespace      jackymancs4/userstyles
-@version        1.0.1
+@version        1.0.0
 @author         Giacomo Rossetto <jackyman_cs4@live.it>
 @homepageURL    https://github.com/Jackymancs4/userstyles
 @supportURL     https://github.com/Jackymancs4/userstyles/issues
-@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/github.user.css
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
-@-moz-document domain("github.com") {
-  .octotree_bottom {
-    font-size: 0px !important
-  }
-
-  .octotree_bottom * {
-    display: none !important;
+@-moz-document domain("facebook.com") {
+  #u_0_1e {
+      display: none;
   }
 }

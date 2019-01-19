@@ -18,31 +18,31 @@
 ==/UserStyle== */
 
 @-moz-document domain("stackoverflow.com") {
-	body {
-		color: font-color;
-		background: whitesmoke;
-	}
-	if not affix {
-		body {
-			position: relative;
-		}
-		body > header {
-			position: absolute!important;
-		}
-	}
-	if nav-pos == 'bottom' {
-		body > .container {
-			padding-top: 0!important;
-		}
-		body > footer {
-			padding-bottom: 60px!important;
-		}
-		body > header {
-			top: auto!important;
-			bottom: 0!important;
-		}
-	}
-	body > header {
-		height: nav-height!important;
-	}
+    body {
+        color: font-color;
+        background: whitesmoke;
+    }
+    if not affix {
+        body {
+            position: relative;
+        }
+        body > header {
+            position: absolute !important;
+        }
+    }
+    if nav-pos=="bottom" {
+        body > .container {
+            padding-top: 0 !important;
+        }
+        body > footer {
+            padding-bottom: 60px !important;
+        }
+        body > header {
+            top: auto !important;
+            bottom: 0 !important;
+        }
+    }
+    body > header {
+        height: nav-height !important;
+    }
 }

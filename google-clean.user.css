@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           Google - Clean
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document regexp("https?://(www|encrypted|images|translate|accounts|books|photos).google.(com|([a-z]{2}))(.[a-z]{2})?/(?!mobile|flights|intl|alerts|finance|calendar|nexus|contacts|services|voice|business|maps|dashboard|settings|android|adsense|analytics|doodles|chrome|fonts|patents|translate_p|recaptcha).*") {
+
+  #footer {
+      display: none !important
+  }
+
+}

@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           bing helixfeed app
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.bing.com/helixfeed/app") {
+    #main>div.pages>div{
+        display: block;
+        width: 50vw !important;
+        left: 25%;
+    }
+    div.feed{
+        height: 100vh !important;
+    }
+}

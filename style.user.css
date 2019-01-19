@@ -38,3 +38,39 @@
       display: none !important;
   }
 }
+
+@-moz-document domain("archive.org") {
+  body>header, body>footer, .wbs__web_footer {
+      display: none !important;
+  }
+}
+
+@-moz-document domain("chrome.google.com") {
+  .Yb-wa {
+      display: none !important;
+  }
+}
+
+@-moz-document domain("explainxkcd.com") {
+  #p-Ads, #p- {
+      display: none
+  }
+}
+
+@-moz-document domain("ghacks.net") {
+  div.border--top--gray.pt--40.mt--40:not(#comments), #respond {
+      display: none;
+  }
+}
+
+@-moz-document domain("tldrlegal.com") {
+  #fossa-promo {
+      display: none;
+  }
+}
+
+@-moz-document domain("treccani.it") {
+  section.module:nth-child(3), section.module:nth-child(4) {
+      display: none;
+  }
+}
