@@ -10,13 +10,10 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("wikia.com") {
-
   #WikiaMainContent {
-    width: 100%
+    width: 100%;
   }
-
   #WikiaRailWrapper,
   #WikiaBarWrapper,
   #WikiaFooter,
@@ -36,9 +33,8 @@
   #WikiaArticleFooter,
   a[href="#WikiaArticleComments"],
   .wds-global-navigation__logo {
-    display: none
+    display: none;
   }
-
   .wds-global-navigation-wrapper,
   #globalNavigation,
   .wds-global-navigation__content-bar,
@@ -58,11 +54,9 @@
   .wds-global-navigation__logo {
     height: 50px;
   }
-
   #globalNavigation {
     position: relative;
   }
-
   #WikiaTopAds,
   .wikia-ad,
   .main-page-tag-rcs iframe,

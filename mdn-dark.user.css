@@ -10,12 +10,10 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("developer.mozilla.org"),
 domain("mdn.github.io"),
 domain("mdn.mozillademos.org"),
 domain("interactive-examples.mdn.mozilla.net") {
-
   :root {
     --fg: #ccc;
     --bg: #101010;
@@ -27,7 +25,7 @@ domain("interactive-examples.mdn.mozilla.net") {
     --bg-input: #000;
     --fg-input-hover: #fff;
     --bg-input-hover: #151515;
-    --border: solid 0.5px #353535;
+    --border: solid .5px #353535;
     --border-color: #353535;
     --fg-link: #369;
     --fg-link-hover: #47a;
@@ -43,8 +41,8 @@ domain("interactive-examples.mdn.mozilla.net") {
     --bg-info: #14a;
     --bg-success: #151;
     --syntax-fg: #f5f5f5;
-    --syntax-fg-2: #ffffff;
-    --syntax-bg: #000000;
+    --syntax-fg-2: #fff;
+    --syntax-bg: #000;
     --syntax-bg-2: #202020;
     --syntax-comment: #b0b0b0;
     --syntax-builtin: #fb0120;
@@ -52,14 +50,12 @@ domain("interactive-examples.mdn.mozilla.net") {
     --syntax-keyword: #d381c3;
     --syntax-number: #fc6d24;
     --syntax-string: #a1c659;
-    --selection-fg: #000
+    --selection-fg: #000;
   }
-
   ::-moz-selection {
     color: var(--bg) !important;
     background: var(--fg-link) !important;
   }
-
   ::selection {
     color: var(--bg) !important;
     background: var(--fg-link) !important;
@@ -68,9 +64,8 @@ domain("interactive-examples.mdn.mozilla.net") {
 
   /* Background Colors */
   .home-masthead {
-    background-image: none
+    background-image: none;
   }
-
   html,
   body,
   main,
@@ -84,13 +79,11 @@ domain("interactive-examples.mdn.mozilla.net") {
   #example-element,
   #bitmap,
   body>div {
-    background-color: var(--bg)
+    background-color: var(--bg);
   }
-
   table[style*="background:"] {
-    background-color: var(--bg) !important
+    background-color: var(--bg) !important;
   }
-
   #main-header,
   .text-content table.standard-table:not(.learn-box) th,
   .nav-footer,
@@ -106,9 +99,8 @@ domain("interactive-examples.mdn.mozilla.net") {
   .text-content table.bc-table,
   .bc-supports-unknown,
   .text-content table.fullwidth-table {
-    background-color: var(--bg-2)
+    background-color: var(--bg-2);
   }
-
   .nav-main-item>a:focus,
   .nav-main-item>a:hover,
   table.compat-table td,
@@ -131,21 +123,18 @@ domain("interactive-examples.mdn.mozilla.net") {
   .callout-box,
   .text-content table.fullwidth-table th,
   .revision-list li:nth-child(2n+1) {
-    background-color: var(--bg-odd)
+    background-color: var(--bg-odd);
   }
-
   button,
   .text-content article[id="wikiArticle"]>.summary+h2,
   .zone-subnav-container,
   .subnav .toggle-container .toggleable,
   button.logout.button {
-    background-color: transparent
+    background-color: transparent;
   }
-
   .text-content h3.highlight-spanned code {
-    background-color: transparent !important
+    background-color: transparent !important;
   }
-
   input[type="search"],
   .reviews button,
   select,
@@ -160,9 +149,8 @@ domain("interactive-examples.mdn.mozilla.net") {
   .search-form>input#home-q,
   .search-form>input#search-q {
     background-color: var(--bg-input);
-    color: var(--fg-input)
+    color: var(--fg-input);
   }
-
   input[type="search"]:focus,
   .reviews button:hover,
   select:hover,
@@ -175,23 +163,20 @@ domain("interactive-examples.mdn.mozilla.net") {
   button:hover,
   input[type="text"]:focus {
     background-color: var(--bg-input-hover);
-    color: var(--fg-input-hover)
+    color: var(--fg-input-hover);
   }
-
   .htab>ul>li {
     background-color: var(--bg-input) !important;
-    color: var(--fg-input) !important
+    color: var(--fg-input) !important;
   }
-
   .htab>ul>li.selected,
   .htab>ul>li.selected a {
     background-color: var(--bg-input-hover) !important;
-    color: var(--fg-input-hover) !important
+    color: var(--fg-input-hover) !important;
   }
-
   .htab>ul>li,
   :not(pre)>*>code {
-    background-color: transparent !important
+    background-color: transparent !important;
   }
 
 
@@ -200,7 +185,7 @@ domain("interactive-examples.mdn.mozilla.net") {
   body,
   main,
   button,
-  .crumbs span::after,
+  .crumbs span:after,
   .quick-links .toggleable>a i[class^="icon-"],
   .quick-links .toggleable>a,
   .toggler i[class^="icon-"],
@@ -210,33 +195,27 @@ domain("interactive-examples.mdn.mozilla.net") {
   .subnav .toggle-container .toggleable .toggler,
   .bc-table .bc-history,
   .bc-supports-unknown {
-    color: var(--fg)
+    color: var(--fg);
   }
-
   .spec-Living,
   .title,
   .user-since,
   summary {
-    color: var(--fg-2)
+    color: var(--fg-2);
   }
-
   .contributors {
-    color: var(--fg-muted)
+    color: var(--fg-muted);
   }
-
   *[style="color: #888;"] {
-    color: var(--fg-muted) !important
+    color: var(--fg-muted) !important;
   }
-
   .spec-CR {
-    color: #4af
+    color: #4af;
   }
-
   .login>a:link,
   .toolbox>ul>li>a {
-    color: #fff
+    color: #fff;
   }
-
   html:not(.no-js) .nav-main-item>a,
   a:hover,
   :not(pre)>*>a code,
@@ -245,25 +224,22 @@ domain("interactive-examples.mdn.mozilla.net") {
   .nav-footer a:link,
   .button.link,
   .result-list .column-1 {
-    color: var(--fg-link)
+    color: var(--fg-link);
   }
-
   html:not(.no-js) .nav-main-item>a:hover,
   :not(pre)>*>a:hover code,
   .toc-links a:focus,
   .toc-links a:hover,
   .button.link:hover,
   .search-results-filters label:hover .filter-name {
-    color: var(--fg-link-hover)
+    color: var(--fg-link-hover);
   }
-
   a:visited {
-    color: var(--fg-link-visited)
+    color: var(--fg-link-visited);
   }
-
   .quick-links a.new,
   article a.new {
-    color: #c00
+    color: #c00;
   }
 
 
@@ -272,7 +248,6 @@ domain("interactive-examples.mdn.mozilla.net") {
   .CodeMirror {
     background-color: var(--syntax-bg);
   }
-
   .CodeMirror-gutters,
   :not(pre)>*>code,
   pre.syntaxbox,
@@ -287,66 +262,56 @@ domain("interactive-examples.mdn.mozilla.net") {
   kbd {
     background-color: var(--syntax-bg-2);
     color: var(--syntax-fg);
-    font-family: var(--syntax-font-family)
+    font-family: var(--syntax-font-family);
   }
-
   .CodeMirror,
   .text-content code[class*="language-"],
   pre[class*="language-"],
   code[class=" language-css"] {
-    color: var(--syntax-fg)
+    color: var(--syntax-fg);
   }
-
   .CodeMirror-linenumber {
-    color: var(--fg-muted)
+    color: var(--fg-muted);
   }
-
   .cm-s-default .cm-property,
   .token.selector,
   .token.tag,
   .token.operator,
   .token.punctuation {
-    color: var(--syntax-builtin)
+    color: var(--syntax-builtin);
   }
-
   .cm-s-default .cm-def,
   .token.function,
   .token.attr-name,
   .token.function {
-    color: var(--syntax-function)
+    color: var(--syntax-function);
   }
-
   .cm-s-default .cm-keyword,
   .token.property,
   .token.keyword {
-    color: var(--syntax-keyword)
+    color: var(--syntax-keyword);
   }
-
   .cm-s-default .cm-string,
   .cm-s-default .cm-string-2,
   .token.regex,
   .token.url,
   .token.string,
   .token.attr-value {
-    color: var(--syntax-string)
+    color: var(--syntax-string);
   }
-
   .cm-s-default .cm-comment,
   .token.comment {
-    color: var(--syntax-comment)
+    color: var(--syntax-comment);
   }
-
   .cm-s-default .cm-number,
   .token.number {
-    color: var(--syntax-number)
+    color: var(--syntax-number);
   }
-
   .token.url {
-    background-color: rgba(255, 255, 255, 0.1)
+    background-color: rgba(255, 255, 255, .1);
   }
-
   .text-content pre[class*="language-"].example-bad {
-    background-color: rgba(100, 50, 50, 0.3)
+    background-color: rgba(100, 50, 50, .3);
   }
 
 
@@ -357,81 +322,66 @@ domain("interactive-examples.mdn.mozilla.net") {
   td[tabindex]:hover .bc-history-link,
   td[tabindex]:focus .bc-history-link {
     background-color: var(--fg-link);
-    color: var(--bg)
+    color: var(--bg);
   }
-
-  .spec-REC::before {
+  .spec-REC:before {
     background-color: #3f3;
-    color: #fff
+    color: #fff;
   }
-
   .spec-REC {
-    color: #3f3
+    color: #3f3;
   }
-
-  .spec-CR::before {
+  .spec-CR:before {
     background-color: #4af;
-    color: #fff
+    color: #fff;
   }
-
   .spec-CR {
-    color: #4af
+    color: #4af;
   }
-
-  .spec-Living::before {
+  .spec-Living:before {
     background-color: #08f;
-    color: #fff
+    color: #fff;
   }
-
   .spec-Living {
-    color: #4af
+    color: #4af;
   }
-
-  .spec-WD::before {
+  .spec-WD:before {
     background-color: #8af;
-    color: #fff
+    color: #fff;
   }
-
   .spec-WD {
-    color: #8af
+    color: #8af;
   }
-
-  .spec-Standard::before {
+  .spec-Standard:before {
     background-color: #4af;
-    color: #fff
+    color: #fff;
   }
-
   .spec-Standard {
-    color: #4af
+    color: #4af;
   }
-
-  .spec-Draft::before {
+  .spec-Draft:before {
     background-color: #f80;
-    color: #000
+    color: #000;
   }
-
   .spec-Draft {
-    color: #f80
+    color: #f80;
   }
-
   .callout-newsletter,
   .notification.info,
   .communitymailinglist a,
   .notification.info .notification-img i,
-  .spec-RC::before,
-  .spec-ED::before,
-  .spec-PR::before,
-  .spec-RC::before,
-  .spec-RFC::before {
+  .spec-RC:before,
+  .spec-ED:before,
+  .spec-PR:before,
+  .spec-RC:before,
+  .spec-RFC:before {
     background-color: var(--bg-info);
-    color: var(--fg-info)
+    color: var(--fg-info);
   }
-
   .warning {
     background-color: var(--bg-error);
-    color: var(--fg-error)
+    color: var(--fg-error);
   }
-
   mark,
   .reviews,
   .draft,
@@ -442,9 +392,8 @@ domain("interactive-examples.mdn.mozilla.net") {
   .translationInProgress,
   .warning.warning-review {
     background-color: var(--bg-warning);
-    color: var(--fg-warning)
+    color: var(--fg-warning);
   }
-
   .reviews a,
   .draft a,
   .privilegedBadge a,
@@ -454,39 +403,34 @@ domain("interactive-examples.mdn.mozilla.net") {
   .translationInProgress a,
   .warning.warning-review a {
     color: var(--fg-warning);
-    text-decoration: underline
+    text-decoration: underline;
   }
 
 
   /* Compatibility table */
   *[style*="background-color: rgb(204, 255, 153)"],
   span[style*="background: #309c40"] {
-    background-color: #3a3 !important
+    background-color: #3a3 !important;
   }
-
   *[style*="background-color: rgb(255, 204, 204)"] {
-    background-color: #a33 !important
+    background-color: #a33 !important;
   }
-
   *[style*="background-color: rgb(255, 255, 153)"] {
-    background-color: #993 !important
+    background-color: #993 !important;
   }
 
 
 
   /* Borders */
-
   .communitycontact a {
-    border-color: var(--fg-link)
+    border-color: var(--fg-link);
   }
-
   .communitycontact a:hover,
   .communitycontact a:focus {
-    border-color: var(--fg-link-hover)
+    border-color: var(--fg-link-hover);
   }
-
-  .text-content article[id="wikiArticle"]>div:not([class])>h2::before,
-  .text-content article[id="wikiArticle"]>h2::before,
+  .text-content article[id="wikiArticle"]>div:not([class])>h2:before,
+  .text-content article[id="wikiArticle"]>h2:before,
   .text-content table.standard-table:not(.learn-box),
   .text-content table,
   .text-content table.standard-table:not(.learn-box) th,
@@ -514,14 +458,12 @@ domain("interactive-examples.mdn.mozilla.net") {
   .text-content table.fullwidth-table th,
   .text-content table.fullwidth-table td,
   kbd {
-    border-color: var(--border-color)
+    border-color: var(--border-color);
   }
-
   .submenu {
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px
+    border-bottom-right-radius: 5px;
   }
-
   a.button,
   .reviews,
   .note,
@@ -529,15 +471,13 @@ domain("interactive-examples.mdn.mozilla.net") {
   .newsletter-box,
   button,
   input {
-    border-radius: 10px
+    border-radius: 10px;
   }
-
   .callout-box,
   a.button,
   button {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .9);
   }
-
   kbd,
   a.button:focus,
   button.logout,
@@ -545,7 +485,7 @@ domain("interactive-examples.mdn.mozilla.net") {
   .notification.info button,
   button:active,
   .news letter button {
-    box-shadow: none
+    box-shadow: none;
   }
 
 
@@ -553,16 +493,14 @@ domain("interactive-examples.mdn.mozilla.net") {
   /* Navigation buttons on some articles/tutorials */
   span[style*="background: #eaeff2"] {
     background-color: var(--bg-input) !important;
-    border: solid 0.5px var(--border-color);
+    border: solid .5px var(--border-color);
     color: var(--fg-input) !important;
-    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .9) !important;
   }
-
   span[style*="background: #eaeff2"]:hover {
     background-color: var(--bg-input-hover) !important;
     color: var(--fg-input-hover) !important;
   }
-
   span[style*="background: #eaeff2"]:active {
     box-shadow: none !important;
   }
@@ -571,29 +509,24 @@ domain("interactive-examples.mdn.mozilla.net") {
   /* Inverting Images */
   .logo,
   .login-photo.avatar,
-  header h4::before {
-    filter: invert(100%)
+  header h4:before {
+    filter: invert(100%);
   }
-
   #main-q {
-    padding-left: 5px
+    padding-left: 5px;
   }
-
   #close-header-search {
-    margin-top: 10px
+    margin-top: 10px;
   }
-
   .bc-supports-yes {
     background-color: #181;
-    color: #fff
+    color: #fff;
   }
-
   .bc-supports-no {
     background-color: #f338;
-    color: #fff
+    color: #fff;
   }
-
   #wikiArticle i.icon-beaker {
-    color: #4af
+    color: #4af;
   }
 }

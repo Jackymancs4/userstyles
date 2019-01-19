@@ -10,12 +10,10 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("github.com") {
   .octotree_bottom {
-    font-size: 0px !important
+    font-size: 0 !important;
   }
-
   .octotree_bottom * {
     display: none !important;
   }

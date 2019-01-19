@@ -11,17 +11,13 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("gnu.org") {
-
   html {
       background-color: black;
   }
-
   body {
-      border: .0em solid #302F2F;
+      border: em solid #302F2F;
       box-shadow: 0 0 5px 5px #302F2F;
-
   }
-
   body,
   #searcher, #fsf-links,
   #content,
@@ -38,19 +34,15 @@
       color: #ccc !important;
       font-family: Loma, Verdana, Geneva, Tahoma, sans-serif !important;
   }
-
-
   a:link:not(#navigation a) {
       color: #66a3ff !important;
   }
   a:visited {
       color: #4d4dff !important;
   }
-
   #gnu-banner a {
       color: #ccc !important;
   }
-
   .node {
       border-radius: .3em !important;
   }
@@ -58,10 +50,8 @@
       color: #ccc !important;
       padding: .5em !important;
   }
-
-
   #gnu-banner img {
-      filter: invert(100%)
+      filter: invert(100%);
   }
 
   /*
@@ -86,11 +76,9 @@
   .example {
       background-color: #302f2f !important;
   }
-
   .node a:hover {
       background: none !important;
   }
-
   pre.smallexample {
       background: #272727 !important;
   }

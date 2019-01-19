@@ -9,24 +9,18 @@
 @updateURL    https://raw.githubusercontent.com/overdodactyl/Stylus-Dark/master/stylus-dark.user.cs
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
-
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
-
   #header {
-    box-shadow: none !important
+    box-shadow: none !important;
   }
-
   .newUI .entry {
     height: 60px;
   }
-
   .newUI .entry.odd {
-    background: rgba(128, 128, 128, 0.05) !important
+    background: rgba(128, 128, 128, .05) !important;
   }
-
   .newUI .entry.odd:hover {
-    background: rgba(128, 128, 128, 0) !important
+    background: rgba(128, 128, 128, 0) !important;
   }
-
 }

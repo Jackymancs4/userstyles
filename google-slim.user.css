@@ -12,7 +12,6 @@
 ==/UserStyle== */
 @-moz-document domain("google.com") {
     @media (max-width: 1200px) {
-
         #top_nav,
         #searchform,
         #fbar,
@@ -22,19 +21,14 @@
         #rhscol,
         #rhs,
         .sfbgx {
-
             min-width: auto !important;
         }
-
         #footcnt {
             display: none;
         }
-
-
         #center_col {
             margin-left: 50px !important;
         }
-
         .mdm #rhs {
             margin-left: 732px;
         }

@@ -10,15 +10,12 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("superuser.com"),
 domain("stackoverflow.com") {
-
   #sidebar {
     display: none;
   }
-
   #mainbar {
-    width: 100% !important
+    width: 100% !important;
   }
 }

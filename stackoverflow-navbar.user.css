@@ -16,7 +16,6 @@
 @advanced text nav-height 'Navbar height' 60px
 @preprocessor stylus
 ==/UserStyle== */
-
 @-moz-document domain("stackoverflow.com") {
     body {
         color: font-color;

@@ -10,15 +10,11 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("wikipedia.org") {
-
   .interlanguage-link:not(.interwiki-it):not(.interwiki-en) {
     display: none;
   }
-
   div {
     overflow: hidden;
   }
-
 }

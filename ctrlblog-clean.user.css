@@ -11,11 +11,9 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("www.ctrl.blog") {
-
     body {
-        margin-bottom: 50px
+        margin-bottom: 50px;
     }
-
     .boxa.box-hl.auc-bu.auc-hs.auc-hm.auc-hl,
     #page-footer,
     .boxa.auc-bu.auc-rm,

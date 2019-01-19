@@ -10,9 +10,7 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("tgcom24.mediaset.it") {
-
   li article[data-sezione="people"],
   li article[data-sezione="spettacolo"],
   li article[data-sezione="televisione"],

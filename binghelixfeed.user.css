@@ -10,7 +10,6 @@
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://www.bing.com/helixfeed/app") {
     #main>div.pages>div{
         display: block;
