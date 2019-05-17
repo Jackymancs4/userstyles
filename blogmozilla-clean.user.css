@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           blog.mozilla.org - Clean
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("blog.mozilla.org") {
+    #adjacent-posts,
+    #related-posts,
+    #newsletter-subscribe,
+    footer#site-info,
+    header#masthead,
+    .post-image.post-image-featured {
+        display: none;
+    }
+
+
+    body > .site-wrap {
+        padding-top: 4em !important;
+    }
+}

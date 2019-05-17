@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           Numberphile.com
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("numberphile.com") {
+    div#site {
+        padding-top: 0px;
+    }
+    #page {
+        margin-top: 180px !important;
+    }
+    .tweak-header-background-color-on.header-tucked .header-announcement-wrapper {
+        height: 100px;
+    }
+    .tweak-header-background-color-on.header-tucked .header-announcement-wrapper .logo-image img {
+        height: 50px;
+    }
+
+    .tweak-header-background-color-on.header-tucked .header-announcement-wrapper header {
+        padding-top: 45px;
+    }
+
+    nav#mainNavigation {
+        margin-top: 0px;
+    }
+
+    footer#footer {
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

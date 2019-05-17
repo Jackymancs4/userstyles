@@ -11,14 +11,14 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("www.ctrl.blog") {
-    body {
-        margin-bottom: 50px;
-    }
-    .boxa.box-hl.auc-bu.auc-hs.auc-hm.auc-hl,
-    #page-footer,
-    .boxa.auc-bu.auc-rm,
-    .boxa.auc-bu.auc-hs.auc-hm,
-    header.entry-header > aside {
-        display: none !important;
-    }
+  body {
+      margin-bottom: 50px;
+  }
+  .boxa.box-hl.auc-bu.auc-hs.auc-hm.auc-hl,
+  #page-footer,
+  .boxa.auc-bu.auc-rm,
+  .boxa.auc-bu.auc-hs.auc-hm,
+  header.entry-header > aside {
+      display: none !important;
+  }
 }

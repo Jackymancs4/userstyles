@@ -11,26 +11,26 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("google.com") {
-    @media (max-width: 1200px) {
-        #top_nav,
-        #searchform,
-        #fbar,
-        div.sfbg,
-        div.sfbgg,
-        #appbar,
-        #rhscol,
-        #rhs,
-        .sfbgx {
-            min-width: auto !important;
-        }
-        #footcnt {
-            display: none;
-        }
-        #center_col {
-            margin-left: 50px !important;
-        }
-        .mdm #rhs {
-            margin-left: 732px;
-        }
-    }
+  @media (max-width: 1200px) {
+      #top_nav,
+      #searchform,
+      #fbar,
+      div.sfbg,
+      div.sfbgg,
+      #appbar,
+      #rhscol,
+      #rhs,
+      .sfbgx {
+          min-width: auto !important;
+      }
+      #footcnt {
+          display: none;
+      }
+      #center_col {
+          margin-left: 50px !important;
+      }
+      .mdm #rhs {
+          margin-left: 732px;
+      }
+  }
 }

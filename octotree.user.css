@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           Octotree
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("github.com") {
+    .octotree-footer,
+    .octotree-ad-big {
+        display: none;
+    }
+
+    .octotree-sidebar.octotree-github-sidebar {
+        padding-bottom: 0px !important;
+    }
+
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-view .octotree-view-header {
+        background-color: #24292e !important;
+        border-right: 0px !important;
+        padding-right: 50px !important;
+    }
+    .octotree-icon-repo:before,
+    .octotree-icon-branch:before {
+        height: 16px;
+        overflow-y: visible;
+    }
+}

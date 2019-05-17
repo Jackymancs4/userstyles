@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           Bing - Clean
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("bing.com") {
+    body #hp_cellCenter #hp_container {
+        min-width: auto;
+    }
+    #b_footer {
+        display: none;
+    }
+}

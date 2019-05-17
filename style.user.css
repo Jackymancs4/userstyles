@@ -11,7 +11,6 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document regexp(".*") {
-  html,
   body {
       overscroll-behavior: none;
   }
@@ -34,7 +33,9 @@
   }
 }
 @-moz-document domain("archive.org") {
-  body>header, body>footer, .wbs__web_footer {
+  body > header,
+  body > footer,
+  .wbs__web_footer {
       display: none !important;
   }
 }
@@ -44,12 +45,14 @@
   }
 }
 @-moz-document domain("explainxkcd.com") {
-  #p-Ads, #p- {
+  #p-Ads,
+  #p- {
       display: none;
   }
 }
 @-moz-document domain("ghacks.net") {
-  div.border--top--gray.pt--40.mt--40:not(#comments), #respond {
+  div.border--top--gray.pt--40.mt--40:not(#comments),
+  #respond {
       display: none;
   }
 }
@@ -59,7 +62,79 @@
   }
 }
 @-moz-document domain("treccani.it") {
-  section.module:nth-child(3), section.module:nth-child(4) {
+  section.module:nth-child(3),
+  section.module:nth-child(4) {
       display: none;
+  }
+}
+
+@-moz-document domain("xkcd.com") {
+  #news,
+  #bottom {
+      display: none;
+  }
+}
+
+@-moz-document domain("html.it") {
+  .footer__newsletter {
+      display: none;
+  }
+}
+
+@-moz-document domain("piratebay-proxylist.se") {
+  .container > .wrapper > div,
+  #info,
+  #copy {
+      display: none;
+  }
+}
+
+@-moz-document domain("regexr.com") {
+  .hello {
+      display: none;
+  }
+}
+
+@-moz-document domain("yesno.wtf") {
+  #footer,
+  #app > div:first-child {
+      display: none;
+  }
+}
+@-moz-document domain("npmjs.com") {
+  .header__headerMain___KyQaM,
+  #upsell,
+  .package__buttons___4R-16,
+  .header__headerGakbar___1EFy-,
+  footer {
+      display: none;
+  }
+
+  #top {
+      margin-top: auto;
+  }
+}
+@-moz-document domain("helloacm.com") {
+
+  #sidebar > div:first-child,
+  #commentsAdd,
+  #sharedropdown,
+  footer {
+      display: none;
+  }
+}
+
+@-moz-document domain("forum.tomshw.it") {
+  .p-body-sidebar iframe,
+  .uix_sidebar--scroller>a,
+  #show-data-trovaprezzi,
+  footer {
+      display: none !important;
+  }
+}
+
+@-moz-document domain("www.liberliber.it") {
+  footer {
+      display: none !important;
   }
 }

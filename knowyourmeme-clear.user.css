@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           knowyourmeme.com - Clean
+@description    description
+@namespace      jackymancs4/userstyles
+@version        1.0.0
+@author         Giacomo Rossetto <jackyman_cs4@live.it>
+@homepageURL    https://github.com/Jackymancs4/userstyles
+@supportURL     https://github.com/Jackymancs4/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("knowyourmeme.com") {
+    #leaderboard,
+    #trending-bar,
+    .floating-share-bar,
+    .floating-keyboard-info,
+    #entry_status_wrapper,
+    #mast_links > aside,
+    #top-entries-sidebar,
+    #entry_content_buttons,
+    #author_info,
+    .combo-wrapper,
+    .facebook_comments
+    {
+        display: none !important;
+    }
+}

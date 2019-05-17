@@ -12,10 +12,22 @@
 ==/UserStyle== */
 @-moz-document domain("superuser.com"),
 domain("stackoverflow.com") {
-  #sidebar {
-    display: none;
-  }
-  #mainbar {
-    width: 100% !important;
-  }
+    #sidebar {
+        display: none;
+    }
+    #mainbar {
+        width: 100% !important;
+    }
+}
+
+@-moz-document domain("stackoverflow.com") {
+    #mainbar pre {
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+    }
+
+    html.html__responsive body.question-page.unified-theme.soup-mse248646-fixed.firacode-400 div.container div#left-sidebar.left-sidebar.js-pinned-left-sidebar div.left-sidebar--sticky-container.js-sticky-leftnav nav ol.nav-links li ol.nav-links li.p6 div.ba.bc-black-2.bar-sm.p16.grid.fd-column.ps-relative.overflow-hidden, footer {
+        display: none;
+    }
+
 }
