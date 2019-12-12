@@ -1,15 +1,16 @@
 /* ==UserStyle==
-@name           Octotree
-@description    description
+@name           Octotree Pro Hider
+@description    Hide pro banner from Octotree sidebar. Works with Octotree 3
 @namespace      jackymancs4/userstyles
-@version        1.0.0
+@version        1.1.0
 @author         Giacomo Rossetto <jackyman_cs4@live.it>
 @homepageURL    https://github.com/Jackymancs4/userstyles
 @supportURL     https://github.com/Jackymancs4/userstyles/issues
-@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/template.user.css
+@updateURL      https://raw.githubusercontent.com/Jackymancs4/userstyles/master/octotree.user.css
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
+
 @-moz-document domain("github.com") {
     .octotree-footer,
     .octotree-ad-big {
